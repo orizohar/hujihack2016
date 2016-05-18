@@ -1,4 +1,8 @@
 
+var DocumentDBClient = require('documentdb').DocumentClient;
+var config = require('./config');
+var TaskList = require('./routes/tasklist');
+var TaskDao = require('./models/taskDao');
 
 var express = require('express');
 var path = require('path');
@@ -30,8 +34,17 @@ app.use(bodyParser.urlencoded({
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
-app.use('/users', users);
+var docDbClient = new DocumentDBClient(config.host, {
+    masterKey: config.authKey
+});
+var taskDao = new TaskDao(docDbClient, config.databaseId, config.collectionId);
+var taskList = new TaskList(taskDao);
+taskDao.init();
+
+app.get('/', taskList.showTasks.bind(taskList));
+app.post('/addtask', taskList.addTask.bind(taskList));
+app.post('/completetask', taskList.completeTask.bind(taskList));
+app.set('view engine', 'jade');
 
 /// catch 404 and forward to error handler
 app.use(function(req, res, next) {
