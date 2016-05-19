@@ -29,4 +29,4 @@ Goto [microsoftazurepass.com][azurepass] to use your Azure pass
 [docdb]: <https://azure.microsoft.com/en-us/documentation/articles/documentdb-introduction/>
 [vmwin]: <https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-hero-tutorial/>
 [vmlinux]: <https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-quick-create-portal/>
-[cirtynext]: <http://enterprise.microsoft.com/en-us/industries/citynext/>
+[citynext]: <http://enterprise.microsoft.com/en-us/industries/citynext/>
