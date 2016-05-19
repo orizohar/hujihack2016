@@ -16,6 +16,9 @@ Goto [microsoftazurepass.com][azurepass] to use your Azure pass
 * [Azure Document DB][docdb]
 * Azure Virtual Machines - [Windows][vmwin] or [Linux][vmlinux]
 
+## Get Inspired!
+[Microsoft City Next][citynext] - Smart Cities
+
 [azurepass]: <http://www.microsoftazurepass.com/>
 [simpleNode]: <https://github.com/Azure/azure-content/blob/master/articles/app-service-web/web-sites-nodejs-develop-deploy-mac.md>
 [node]: <https://azure.microsoft.com/en-us/documentation/articles/documentdb-nodejs-application/>
@@ -26,3 +29,4 @@ Goto [microsoftazurepass.com][azurepass] to use your Azure pass
 [docdb]: <https://azure.microsoft.com/en-us/documentation/articles/documentdb-introduction/>
 [vmwin]: <https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-windows-hero-tutorial/>
 [vmlinux]: <https://azure.microsoft.com/en-us/documentation/articles/virtual-machines-linux-quick-create-portal/>
+[cirtynext]: <http://enterprise.microsoft.com/en-us/industries/citynext/>
