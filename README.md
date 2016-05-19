@@ -3,7 +3,7 @@
 Please see below links for walkthroughs and resources to get you started with web apps on Azure.
 You can clone this repo to easily get started with a node.js + DocumentDB web app (See relevant walkthrough below for more info).
 
-Goto microsoftazurepass.com to use your Azure pass
+Goto [microsoftazurepass.com][azurepass] to use your Azure pass
 ### Walkthroughs
 * [Deploy a simple Node.js web app with Git][simpleNode]
 * [Node.js web app][node] - Create a "ToDo list" node.js + DocumentDB web app (feel free to use the code in this repo) for other languages see:
@@ -16,6 +16,7 @@ Goto microsoftazurepass.com to use your Azure pass
 * [Azure Document DB][docdb]
 * Azure Virtual Machines - [Windows][vmwin] or [Linux][vmlinux]
 
+[azurepass]: <http://www.microsoftazurepass.com/>
 [simpleNode]: <https://github.com/Azure/azure-content/blob/master/articles/app-service-web/web-sites-nodejs-develop-deploy-mac.md>
 [node]: <https://azure.microsoft.com/en-us/documentation/articles/documentdb-nodejs-application/>
 [java]: <https://azure.microsoft.com/en-us/documentation/articles/documentdb-java-application/>
